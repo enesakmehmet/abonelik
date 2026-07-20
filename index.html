@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abonem — Gizlilik Politikası</title>
+<style>
+  :root {
+    --purple: #5B4BC4;
+    --purple-light: #f4f2fc;
+    --text: #1f1b33;
+    --muted: #6b6580;
+    --border: #e6e2f5;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--text);
+    background: #fff;
+    line-height: 1.65;
+  }
+  header {
+    background: linear-gradient(135deg, var(--purple), #6C5CE0);
+    color: #fff;
+    padding: 48px 24px 40px;
+    text-align: center;
+  }
+  header h1 {
+    margin: 0 0 6px;
+    font-size: 28px;
+  }
+  header p {
+    margin: 0;
+    opacity: 0.9;
+    font-size: 15px;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+  }
+  .lang-note {
+    background: var(--purple-light);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 14px 18px;
+    font-size: 14px;
+    color: var(--muted);
+    margin-bottom: 36px;
+  }
+  h2 {
+    font-size: 19px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: var(--purple);
+  }
+  p, li {
+    font-size: 15.5px;
+    color: var(--text);
+  }
+  ul {
+    padding-left: 20px;
+  }
+  .updated {
+    color: var(--muted);
+    font-size: 13.5px;
+  }
+  .card {
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 18px 20px;
+    margin: 14px 0;
+    background: var(--purple-light);
+  }
+  .card strong { color: var(--purple); }
+  a { color: var(--purple); }
+  hr {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 56px 0 40px;
+  }
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 13px;
+    padding: 0 24px 40px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Abonem — Gizlilik Politikası</h1>
+  <p>Son güncelleme: 20 Temmuz 2026</p>
+</header>
+
+<main>
+
+  <div class="lang-note">
+    Bu sayfa Türkçe ve İngilizce olarak hazırlanmıştır. / This page is available in Turkish and English (scroll down).
+  </div>
+
+  <!-- ================= TÜRKÇE ================= -->
+
+  <h2>Özet</h2>
+  <div class="card">
+    <strong>Abonem hiçbir kişisel veri toplamaz, saklamaz veya üçüncü taraflarla paylaşmaz.</strong>
+    Uygulamanın sunucusu yoktur; girdiğin tüm abonelik bilgileri yalnızca kendi telefonunda saklanır.
+  </div>
+
+  <h2>Hangi veriler toplanıyor?</h2>
+  <p>Hiçbir veri toplanmıyor. Abonem'in bir kullanıcı hesabı, sunucusu veya arka uç (backend) sistemi yoktur.
+  Eklediğin abonelikler, ayarların ve tercihlerin yalnızca cihazının yerel deposunda (AsyncStorage) tutulur ve
+  cihazından hiçbir şekilde dışarı gönderilmez.</p>
+
+  <h2>İnternet bağlantısı ne için kullanılıyor?</h2>
+  <p>Uygulama yalnızca bir amaçla internete bağlanır: USD/EUR abonelikleri Türk Lirası karşılığıyla göstermek için
+  günde bir kez <code>open.er-api.com</code> adresinden güncel döviz kuru çeker. Bu istek herhangi bir kişisel veri,
+  cihaz kimliği veya kullanıcı bilgisi içermez — yalnızca genel kur bilgisini ister. Sonuç, tekrar internet
+  gerekmeden kullanılabilmesi için cihazında önbelleğe alınır.</p>
+
+  <h2>Face ID / Touch ID (Uygulama Kilidi)</h2>
+  <p>Ayarlardan açılışta kimlik doğrulama özelliğini etkinleştirirsen, doğrulama işlemi tamamen işletim sistemi
+  (iOS/Android) tarafından cihaz üzerinde gerçekleştirilir. Abonem, biyometrik verilerine hiçbir zaman erişemez,
+  bu verileri göremez veya saklamaz.</p>
+
+  <h2>Bildirimler</h2>
+  <p>Ödeme hatırlatmaları ve aylık özet bildirimleri tamamen cihazında, yerel olarak zamanlanır. Bildirim
+  göndermek için herhangi bir sunucuya veri gönderilmez.</p>
+
+  <h2>Üçüncü taraflarla veri paylaşımı</h2>
+  <p>Abonem hiçbir veriyi reklam ağlarıyla, analiz şirketleriyle veya başka üçüncü taraflarla paylaşmaz.
+  Uygulama içinde reklam veya izleme (tracking) SDK'sı bulunmaz.</p>
+
+  <h2>Verilerin silinmesi</h2>
+  <p>Tüm veriler cihazında tutulduğu için, uygulamayı telefonundan kaldırdığında ilişkili tüm veriler de
+  otomatik olarak silinir. Ayrıca uygulama içindeki ayarlar üzerinden dilediğin zaman abonelik verilerini
+  manuel olarak da silebilirsin.</p>
+
+  <h2>Çocukların gizliliği</h2>
+  <p>Abonem, bilerek 13 yaş altı çocuklardan veri toplamaz — zaten hiç kimseden veri toplamadığı için bu durum
+  tüm kullanıcılar için geçerlidir.</p>
+
+  <h2>Bu politikadaki değişiklikler</h2>
+  <p>Gizlilik politikası güncellenirse, güncel hali bu sayfada yayınlanır ve sayfanın üstündeki tarih güncellenir.</p>
+
+  <h2>İletişim</h2>
+  <p>Sorularınız için: <a href="mailto:enesakmehmet4@gmail.com">enesakmehmet4@gmail.com</a></p>
+
+  <hr>
+
+  <!-- ================= ENGLISH ================= -->
+
+  <h2>Summary</h2>
+  <div class="card">
+    <strong>Abonem does not collect, store, or share any personal data with third parties.</strong>
+    The app has no server — everything you enter is stored only on your own device.
+  </div>
+
+  <h2>What data is collected?</h2>
+  <p>None. Abonem has no user account, server, or backend of any kind. Your subscriptions, settings, and
+  preferences are stored exclusively in your device's local storage (AsyncStorage) and never leave your device.</p>
+
+  <h2>What is the internet connection used for?</h2>
+  <p>The app connects to the internet for one purpose only: to fetch the current exchange rate from
+  <code>open.er-api.com</code> once a day, so USD/EUR subscriptions can be displayed in Turkish Lira. This request
+  contains no personal data, device identifiers, or user information — it only requests general currency rate
+  data. The result is cached on your device so it can be used offline afterwards.</p>
+
+  <h2>Face ID / Touch ID (App Lock)</h2>
+  <p>If you enable the app-lock feature in Settings, authentication is handled entirely by the operating system
+  (iOS/Android) on your device. Abonem never has access to, sees, or stores your biometric data.</p>
+
+  <h2>Notifications</h2>
+  <p>Payment reminders and monthly summary notifications are scheduled entirely locally on your device. No data
+  is sent to any server to deliver notifications.</p>
+
+  <h2>Sharing data with third parties</h2>
+  <p>Abonem does not share any data with ad networks, analytics companies, or other third parties. The app
+  contains no advertising or tracking SDKs.</p>
+
+  <h2>Data deletion</h2>
+  <p>Since all data is stored on your device, uninstalling the app automatically deletes all associated data.
+  You can also manually delete your subscription data at any time from within the app.</p>
+
+  <h2>Children's privacy</h2>
+  <p>Abonem does not knowingly collect data from children under 13 — this applies to all users, since the app
+  does not collect data from anyone.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this privacy policy is updated, the new version will be published on this page and the date at the top
+  will be updated accordingly.</p>
+
+  <h2>Contact</h2>
+  <p>Questions: <a href="mailto:enesakmehmet4@gmail.com">enesakmehmet4@gmail.com</a></p>
+
+</main>
+
+<footer>
+  © 2026 Abonem
+</footer>
+
+</body>
+</html>
